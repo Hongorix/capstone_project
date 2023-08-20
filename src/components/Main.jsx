@@ -1,9 +1,6 @@
 import "./Main.css";
 import FoodImg from "../img/restauranfood.jpg";
-import DeliveryIcon from "../img/food-delivery-icon.svg";
-import GreekSaladImg from "../img/greek salad.jpg";
-import BruchettaImg from "../img/bruchetta.svg";
-import LemonDessertImg from "../img/lemon dessert.jpg";
+import articlesData from "./ArticlesData";
 
 function Main() {
   return (
@@ -28,47 +25,18 @@ function Main() {
           <button>Online Menu</button>
         </div>
         <section>
-          <article>
-            <img src={GreekSaladImg} alt="Greek salad" />
-            <div className="OneLineItems">
-              <h3>Greek salad</h3>
-              <p id="price">$12.99</p>
-            </div>
-            <p id="description">
-              The famous greek salad of crispy lettuce, peppers, olives and our
-              Chicago style feta cheese, garnished with crunchy garlic and
-              rosemary croutons.
-            </p>
-            <a href="/order">Order a delivery</a>
-            <span class="icon"></span>
-          </article>
-          <article>
-            <img src={BruchettaImg} alt="Bruchetta" />
-            <div className="OneLineItems">
-              <h3>Bruchetta</h3>
-              <p id="price">$5.99</p>
-            </div>
-            <p id="description">
-              Our Bruschetta is made from grilled bread that has been smeared
-              with garlic and seasoned with salt and olive oil.
-            </p>
-            <a href="/order">Order a delivery</a>
-            <span class="icon"></span>
-          </article>
-          <article>
-            <img src={LemonDessertImg} alt="Lemon Dessert" />
-            <div className="OneLineItems">
-              <h3>Lemon Dessert</h3>
-              <p id="price">$5.00</p>
-            </div>
-            <p id="description">
-              This comes straight from grandma’s recipe book, every last
-              ingredient has been sourced and is as authentic as can be
-              imagined.
-            </p>
-            <a href="/order">Order a delivery</a>
-            <span class="icon"></span>
-          </article>
+          {articlesData.map((article, index) => (
+            <article key={index}>
+              <img src={article.imgSrc} alt={article.title} />
+              <div className="OneLineItems">
+                <h3>{article.title}</h3>
+                <p id="price">{article.price}</p>
+              </div>
+              <p id="description">{article.description}</p>
+              <a href="/order">Order a delivery</a>
+              <span className="icon"></span>
+            </article>
+          ))}
         </section>
       </div>
     </main>
