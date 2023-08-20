@@ -1,7 +1,12 @@
+import "./Navigation.css";
+
 function Navigation() {
   return (
     <nav>
       <ul>
+        <li id="FooterHeader">
+          <h4>Navigation</h4>
+        </li>
         <li>
           <a href="/home">Home</a>
         </li>

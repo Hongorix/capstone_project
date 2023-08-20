@@ -1,5 +1,6 @@
+import "./Header.css";
 import Navigation from "./Navigation";
-import Logo from "../img/Logo.svg";
+import Logo from "../img/LogoColor_.png";
 
 function Header() {
   return (
