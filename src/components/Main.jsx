@@ -2,6 +2,7 @@ import "./Main.css";
 import FoodImg from "../img/restauranfood.jpg";
 import articlesData from "./ArticlesData";
 
+// Check
 function Main() {
   return (
     <main>
