@@ -1,6 +1,6 @@
-import GreekSaladImg from "../img/greek salad.jpg";
-import BruchettaImg from "../img/bruchetta.svg";
-import LemonDessertImg from "../img/lemon dessert.jpg";
+import GreekSaladImg from "../../../img/greek salad.jpg";
+import BruchettaImg from "../../../img/bruchetta.svg";
+import LemonDessertImg from "../../../img/lemon dessert.jpg";
 
 const articlesData = [
   {

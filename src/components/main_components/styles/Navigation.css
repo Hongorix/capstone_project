@@ -1,4 +1,4 @@
-header #FooterHeader {
+/* header #FooterHeader {
   display: none;
 }
 
@@ -75,3 +75,13 @@ footer nav a {
 footer nav {
   order: 2;
 }
+
+nav a {
+  text-decoration: none;
+  color: #333333;
+  font-size: 1.5rem;
+}
+
+nav a:hover {
+  text-decoration: underline;
+} */
