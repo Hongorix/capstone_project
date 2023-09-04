@@ -3,7 +3,7 @@ import testimonialsData from "./data/TestimonialsData";
 function Testimonials() {
   return (
     <section className="page__testimonials">
-      <div id="testimonials__container _container">
+      <div className="testimonials__container _container">
         <div className="testimonials__header testimonials-block">
           <div className="header-block__column">
             <h1 className="header-block__title">Testimonials</h1>

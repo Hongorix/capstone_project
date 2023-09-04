@@ -1,0 +1,60 @@
+.page {
+  // .page__hero
+
+  &__hero {
+    background-color: green;
+  }
+}
+.hero-section {
+  // .hero-section__container
+
+  &__container {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+  }
+
+  // .hero-section__column
+
+  &__column {
+    width: fit-content;
+  }
+}
+
+.column {
+  // .column__header
+
+  &__header {
+  }
+
+  // .column__body
+
+  &__body {
+  }
+}
+.header-block {
+  // .header-block__title
+
+  &__title {
+  }
+
+  // .header-block__small-title
+
+  &__small-title {
+  }
+}
+.body-block {
+  // .body-block__text
+
+  &__text {
+  }
+}
+.hero-section-text {
+}
+.btn {
+}
+.hero-section-img {
+  position: relative;
+  top: 10px;
+}

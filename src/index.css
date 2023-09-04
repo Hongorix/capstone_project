@@ -1,4 +1,7 @@
-img {
-  max-width: 20%;
-  max-height: 30%;
+.hightlights-column__icon {
+  background: url("./img/food-delivery-icon.svg");
+  width: 30px;
+  height: 21px;
+  display: inline-block;
+  margin-left: 1vw;
 }

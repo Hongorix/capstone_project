@@ -3,7 +3,7 @@ import articlesData from "./data/ArticlesData";
 function Hightlights() {
   return (
     <section className="page__hightlights">
-      <div id="hightlights__container _container">
+      <div className="hightlights__container _container">
         <div className="hightlights__header header-block">
           <div className="header-block__column">
             <h1 className="header-block__title">Specials</h1>

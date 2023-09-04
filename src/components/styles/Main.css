@@ -1,0 +1,18 @@
+.page__hero {
+  background-color: green;
+}
+
+.hero-section__container {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+}
+.hero-section__column {
+  width: fit-content;
+}
+
+.hero-section-img {
+  position: relative;
+  top: 10px;
+}

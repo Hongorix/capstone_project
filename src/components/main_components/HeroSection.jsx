@@ -20,7 +20,9 @@ function HeroSection() {
           <button className="btn">Reserve a Table</button>
         </div>
         <div className="hero-section__column">
-          <img className="hero-section-img" src={FoodImg} alt="Food" />
+          <div className="hero-section__item">
+            <img className="hero-section-img" src={FoodImg} alt="Food" />
+          </div>
         </div>
       </div>
     </section>

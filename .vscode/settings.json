@@ -4,9 +4,10 @@
     {
       "format": "expanded",
       "extensionName": ".css",
-      "savePath": "/src/components/styles",
+      // "savePath": "/src/components/styles",
       "savePathReplacementPairs": null
     }
   ],
-  "liveSassCompile.settings.generateMap": false
+  "liveSassCompile.settings.generateMap": false,
+  "liveSassCompile.settings.autoprefix": []
 }

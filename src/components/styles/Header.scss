@@ -1,0 +1,20 @@
+.header {
+  // .header__container
+
+  &__container {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+  }
+
+  // .header__logo
+  &__logo {
+    max-width: 25%;
+  }
+
+  // .header__menu
+
+  &__menu {
+  }
+}

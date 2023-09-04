@@ -1,0 +1,19 @@
+.navigation {
+  // .navigation__list
+
+  &__list {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+  }
+
+  // .navigation__item
+
+  &__item {
+  }
+
+  // .navigation__link
+
+  &__link {
+  }
+}
